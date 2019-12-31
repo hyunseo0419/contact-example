@@ -31,13 +31,13 @@ export default function HeadBar() {
               key="3"
               style={{ paddingLeft: "3%", paddingRight: "3%" }}
             >
-              <Link to="/getContact">Get All Contact</Link>
+              <Link to="/addContact">Add New Contact</Link>
             </Menu.Item>
             <Menu.Item
               key="4"
               style={{ paddingLeft: "3%", paddingRight: "3%" }}
             >
-              <Link to="/getContact">Get All Contact</Link>
+              <Link to="/deleteContact">Delete Contact</Link>
             </Menu.Item>
           </Menu>
         </Header>
